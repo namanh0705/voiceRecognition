@@ -1,0 +1,17 @@
+﻿1. Detect sử dụng mạng CNN1D
+1.1 Colab
+code train: emo_cnn1d.py
+code test: test_emo_cnn1d.py
+1.2 Pycharm
+code: emodata1d.py và cnn1d.py 
+
+2. Detect sử dụng mạng CNN2D
+code chuyển voice sang ảnh: wav_to_image.py 
+code train:cnn2d.py
+yêu cầu: tensorflow 1.14
+
+3. Test end to end
+Bao gồm: tách kênh người nói, chia block loại bỏ khoảng lặng, detect cảm xúc của từng khoảng lặng
+code: test_emotion.py
+
+Yêu cầu: keras 2.4.3, tensorflow 2.3.0  
